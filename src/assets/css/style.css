@@ -11,7 +11,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto minmax(100vh, 1fr) auto;
-    background-color: black;
+    background-image: url(https://i.postimg.cc/VN9FnfWM/programming-coding-language-uhdpaper-com-4-K-6-256.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 #app>* {
@@ -27,9 +30,18 @@
     background-color: #7d7d7d;
 }
 
+/* Logo Gif */
+.logo{
+    width: 4rem;
+}
+
+.welcome{
+    margin-top: 15rem;
+}
+
 /* footer */
 .footer{
-    background-color: white;
+    background-color: #2B3035;
 }
 
 /* footer icons */

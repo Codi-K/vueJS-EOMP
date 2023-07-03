@@ -1,9 +1,9 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 " data-bs-theme="dark">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/">
-      <img src="https://cdn.betterttv.net/emote/61480095b63cc97ee6d261ac/2x.gif" loading="lazy" alt="Logo">
+      <img src="https://i.postimg.cc/ydQmsv52/C-K.gif" class="logo" loading="lazy" alt="Logo">
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
