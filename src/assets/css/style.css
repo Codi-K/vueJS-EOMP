@@ -35,8 +35,17 @@
     width: 4rem;
 }
 
+/* welcome heading  */
 .welcome{
     margin-top: 15rem;
+}
+
+/* About content ul */
+.about{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 7rem;
+    padding: 1rem;
 }
 
 /* footer */
@@ -49,3 +58,4 @@
     width: 1.5rem;
     
 }
+
