@@ -13,7 +13,7 @@
         </div>
         <div class="d-flex justify-content-center">
             <p class="copyright my-0">
-                    CopyRight &copy; {{ cYear }} Powered by xqcL
+                    CopyRight &copy; {{ cYear }}
                 </p>
         </div>
     </div>
