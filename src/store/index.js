@@ -25,6 +25,9 @@ export default createStore({
     setMycv(state, mycv) {
       state.mycv = mycv;
     },
+    setProjects(state, projects) {
+      state.projects = projects;
+    },
   },
   actions: {
     async fetchMydetails(context) {
@@ -59,6 +62,15 @@ export default createStore({
         let res = await fetch(dataURL);
         let { mycv } = await res.json();
         context.commit("setMycv", mycv);
+      } catch (e) {
+        console.log(e.message);
+      }
+    },
+    async fetchProjects(context) {
+      try {
+        let res = await fetch(dataURL);
+        let { projects } = await res.json();
+        context.commit("setProjects", projects);
       } catch (e) {
         console.log(e.message);
       }
