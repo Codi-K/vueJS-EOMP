@@ -48,6 +48,11 @@
     padding: 1rem;
 }
 
+/* skills */
+.skills{
+    gap: .4rem;
+}
+
 /* footer */
 .footer{
     background-color: #2B3035;
