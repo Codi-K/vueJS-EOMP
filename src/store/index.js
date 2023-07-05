@@ -28,6 +28,9 @@ export default createStore({
     setProjects(state, projects) {
       state.projects = projects;
     },
+    setTestimonials(state, testimonils) {
+      state.testimonils = testimonils;
+    },
   },
   actions: {
     async fetchMydetails(context) {
@@ -71,6 +74,15 @@ export default createStore({
         let res = await fetch(dataURL);
         let { projects } = await res.json();
         context.commit("setProjects", projects);
+      } catch (e) {
+        console.log(e.message);
+      }
+    },
+    async fetchTestimonials(context) {
+      try {
+        let res = await fetch(dataURL);
+        let { testimonils } = await res.json();
+        context.commit("setTestimonials", testimonils);
       } catch (e) {
         console.log(e.message);
       }
