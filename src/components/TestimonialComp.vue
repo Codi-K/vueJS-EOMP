@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
-    <div class="row mt-5">
-      <div class="col-4" v-for="testimonil in testimonils" :key="testimonil.id">
-        <div class="card text-bg-dark mt-3" style="max-width: 540px">
+    <div class="row  mt-5">
+      <div class="col-lg-4 d-flex justify-content-center" v-for="testimonil in testimonils" :key="testimonil.id">
+        <div class="card text-bg-dark my-3 text-center" style="max-width: 540px">
           <div class="row g-0">
             <div class="col-md-4">
               <img
@@ -14,9 +14,9 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h2 class="card-title">{{ testimonil.name }}</h2>
-                <h5 class="card-text">
+                <p class="card-text">
                   {{ testimonil.testimonial }}
-                </h5>
+                </p>
               </div>
             </div>
           </div>
