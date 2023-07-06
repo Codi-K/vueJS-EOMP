@@ -53,6 +53,14 @@
     gap: .4rem;
 }
 
+/* animations
+.heading{
+    animation-name: jello;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
 /* footer */
 .footer{
     background-color: #2B3035;

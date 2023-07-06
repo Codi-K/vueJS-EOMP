@@ -2,7 +2,7 @@
   <div>
     <div class="text-center my-4" v-for="cv in mycv" :key="cv.id">
       <a :href="cv.cvUrl" target="_blank">
-        <button class="btn btn-outline-light" type="button">Download CV</button>
+        <button class="btn btn-outline-light " type="button">Download CV</button>
       </a>
     </div>
   </div>
