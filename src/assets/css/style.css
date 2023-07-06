@@ -53,6 +53,23 @@
     gap: 10rem;
 }
 
+/* All about content */
+#aboutd{
+    margin: 2rem;
+}
+
+/* About Image */
+.dp {
+    height: 20rem;
+    margin: auto;
+}
+
+/* About Paragraph */
+#dp_paragraph {
+    margin: auto;
+    width: 85%;
+}
+
 /* footer */
 .footer{
     background-color: #2B3035;
@@ -64,3 +81,8 @@
     
 }
 
+@media (width < 700px) {
+    .skills{
+        gap: 2rem;
+    }
+}

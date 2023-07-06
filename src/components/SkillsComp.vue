@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="row skills d-flex justify-content-center">
-        <div class="col-sm-3  d-flex justify-content-center" v-for="skill in skills" :key="skill.id">
+        <div class="col-sm-3 d-flex justify-content-center" v-for="skill in skills" :key="skill.id">
           <div class="card text-bg-dark" >
             <h5>{{ skill.name }}</h5>
             <img

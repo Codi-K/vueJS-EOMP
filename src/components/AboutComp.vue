@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="">
-      <div class="aboutd" id="sssssssssssss">
+      <div class="aboutd" id="aboutd">
         <div class="p-0 m-0 d-flex justify-content-center">
           <img
             src="https://i.postimg.cc/brrd8txr/C12-C2-Codi-Kader.jpg"
@@ -45,16 +45,4 @@
 export default {};
 </script>
 
-<style scoped>
-#sssssssssssss {
-  margin: 2rem;
-}
-.dp {
-  height: 20rem;
-  margin: auto;
-}
-#dp_paragraph {
-  margin: auto;
-  width: 85%;
-}
-</style>
+<style scoped></style>
