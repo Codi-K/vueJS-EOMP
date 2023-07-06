@@ -10,21 +10,15 @@
         >
           <div class="card-body p-0">
             <div>
-              <h5 class="card-text fw-bold">
-                School:
-              </h5>
+              <h5 class="card-text fw-bold">School:</h5>
               <p>
                 {{ education.school }}
               </p>
-              <h5 class="card-text fw-bold">
-                Completed:
-              </h5>
+              <h5 class="card-text fw-bold">Completed:</h5>
               <p>
                 {{ education.pass }}
               </p>
-              <h5 class="card-text fw-bold">
-                Year
-              </h5>
+              <h5 class="card-text fw-bold">Year</h5>
               <p>
                 {{ education.year }}
               </p>
@@ -49,6 +43,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

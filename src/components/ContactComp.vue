@@ -1,46 +1,55 @@
 <template>
   <div>
     <div class="container m-auto text-center my-5">
-    <form action="https://formspree.io/f/xeqbjwbz" method="POST">
+      <form action="https://formspree.io/f/xeqbjwbz" method="POST">
         <div class="my-4">
-        <div class="fw-bold">
-            Your Name
+          <div class="fw-bold">Your Name</div>
+          <input
+            type="name"
+            class="p-4 w-75 text-center border border-black border-5 rounded-4 fs-5"
+            placeholder="Please enter your name..."
+            name="name"
+          />
         </div>
-        <input type="name" class="p-4 w-75 text-center border border-black border-5 rounded-4 fs-5" placeholder="Please enter your name..." name="name" />
-      </div>
-      <div class="my-4">
-        <div class="fw-bold">
-             Your Surname
+        <div class="my-4">
+          <div class="fw-bold">Your Surname</div>
+          <input
+            type="surname"
+            class="p-4 w-75 text-center border border-black border-5 rounded-4 fs-5"
+            placeholder="Please enter your surname..."
+            name="surname"
+          />
         </div>
-        <input type="surname" class="p-4 w-75 text-center border border-black border-5 rounded-4 fs-5" placeholder="Please enter your surname..." name="surname" />
-      </div>
-      <div class="my-4">
-        <div class="fw-bold">
-            Your Email
+        <div class="my-4">
+          <div class="fw-bold">Your Email</div>
+          <input
+            type="email"
+            class="p-4 w-75 text-center border border-black border-5 rounded-4 fs-5"
+            placeholder="Please enter your email..."
+            name="email"
+          />
         </div>
-        <input type="email" class="p-4 w-75 text-center border border-black border-5 rounded-4 fs-5" placeholder="Please enter your email..." name="email" />
-      </div>
-      <div class="my-4">
-        <div class="fw-bold">
-            Your Message
+        <div class="my-4">
+          <div class="fw-bold">Your Message</div>
+          <div>
+            <textarea
+              class="p-3 w-75 text-center border border-black border-5 rounded-4 fs-5"
+              placeholder="Please enter a message..."
+              name="message"
+            ></textarea>
+          </div>
         </div>
         <div>
-            <textarea class="p-3 w-75 text-center border border-black border-5 rounded-4 fs-5" placeholder="Please enter a message..." name="message"></textarea>
+          <!-- your other form fields go here -->
+          <button class="btn btn-outline-light" type="submit">Submit</button>
         </div>
-      </div>
-      <div>
-      <!-- your other form fields go here -->
-      <button class="btn btn-outline-light" type="submit">Submit</button>
-      </div>
-    </form>
+      </form>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-
-};
+export default {};
 </script>
 
 <style scoped></style>
