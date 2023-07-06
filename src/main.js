@@ -11,4 +11,7 @@ import './assets/css/style.css'
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+//Animate.css
+import "animate.css";
+
 createApp(App).use(store).use(router).mount('#app')
