@@ -5,7 +5,7 @@
         <h5>{{ skill.name }}</h5>
       <img :src="skill.imageUrl" class="img-fluid " loading="lazy" :alt="skill.name" />
       <div class="card-body">
-        <h5 class="card-text">
+        <h5 class="card-text animate__animated animate__zoomIn animate__delay-1s">
           {{ skill.level }}
         </h5>
       </div>

@@ -10,8 +10,8 @@
         <p class="card-text">
           {{ project.despcription }}
         </p>
-        <a :href="project.github" target="_blank" class="btn btn-outline-light mx-3">GitHub</a>
-        <a :href="project.netlify" target="_blank" class="btn btn-outline-light mx-3">Website</a>
+        <a :href="project.github" target="_blank" class="btn btn-outline-light mx-3 animate__animated animate__zoomIn animate__delay-1s">GitHub</a>
+        <a :href="project.netlify" target="_blank" class="btn btn-outline-light mx-3 animate__animated animate__zoomIn animate__delay-2s">Website</a>
       </div>
     </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
  <div>
     <div class=" aboutd d-flex justify-content-between">
-        <div class="p-0 m-0 col-5 d-flex justify-content-center ">
+        <div class="p-0 m-0 col-5 d-flex justify-content-center">
         <img src="https://i.postimg.cc/brrd8txr/C12-C2-Codi-Kader.jpg" class="dp img-fluid rounded-circle" loading="lazy" alt="Profile Picture">
         </div>
         <div class=" p-1 m-0 col-7">
