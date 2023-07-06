@@ -2,7 +2,7 @@
   <div>
     <div class="row justify-content-center ">
       <div
-        class="card mb-3"
+        class="card text-bg-dark mb-3"
         v-for="testimonil in testimonils"
         style="max-width: 540px"
         :key="testimonil.id"
@@ -18,9 +18,9 @@
           <div class="col-md-8">
             <div class="card-body">
               <h2 class="card-title">{{ testimonil.name }}</h2>
-              <h4 class="card-text">
+              <h5 class="card-text">
                 {{ testimonil.testimonial }}
-              </h4>
+              </h5>
             </div>
           </div>
         </div>
