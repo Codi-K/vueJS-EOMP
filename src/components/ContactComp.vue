@@ -12,7 +12,7 @@
             minlength="3"
             maxlength="20"
             required
-            oninvalid="this.setCustomValidity('Please Enter Your Name')"
+            oninvalid="this.setCustomValidity('Please Enter Your Name 🤓')"
             oninput="this.setCustomValidity('')"
           />
         </div>
@@ -27,7 +27,7 @@
             maxlength="50"
             pattern="[A-Za-z]+"
             required
-            oninvalid="this.setCustomValidity('Please Enter your Surname')"
+            oninvalid="this.setCustomValidity('Please Enter your Surname🤠')"
             oninput="this.setCustomValidity('')"
           />
         </div>
@@ -41,7 +41,7 @@
             minlength="3"
             maxlength="20"
             required
-            oninvalid="this.setCustomValidity('Enter An Email Address')"
+            oninvalid="this.setCustomValidity('Enter An Email Address 🫡')"
             oninput="this.setCustomValidity('')"
           />
         </div>
@@ -55,7 +55,7 @@
               minlength="3"
               maxlength="500"
               required
-              oninvalid="this.setCustomValidity('Please type a message to me')"
+              oninvalid="this.setCustomValidity('Please type a message to me 😎')"
               oninput="this.setCustomValidity('')"
             ></textarea>
           </div>
@@ -73,10 +73,5 @@ export default {};
 </script>
 
 <style scoped>
-input:valid {
-  border: 2px solid green;
-}
-input:invalid {
-  border: 2px solid red;
-}
+
 </style>
