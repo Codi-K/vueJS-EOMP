@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container m-auto text-center my-5">
+    <div class="container p-0 text-center my-5">
       <form action="https://formspree.io/f/xeqbjwbz" method="POST">
         <div class="my-4">
           <div class="fw-bold">Your Name</div>
@@ -39,10 +39,7 @@
             ></textarea>
           </div>
         </div>
-        <div>
-          <!-- your other form fields go here -->
-          <button class="btn btn-outline-light" type="submit">Submit</button>
-        </div>
+          <button style="width: 74%" class="btn btn-outline-light " type="submit">Submit</button>
       </form>
     </div>
   </div>
