@@ -70,6 +70,12 @@
     width: 85%;
 }
 
+/* All lists  */
+.li{
+    list-style: none;
+    color: red;
+}
+
 
 /* footer */
 .footer{

@@ -4,7 +4,7 @@
       <h1 class="heading animate__animated animate__pulse">
         Welcome To Codi Kader's Web Portfolio
       </h1>
-      <h4 class="heading">- Aspiring Full Stack Web Developer -</h4>
+      <h4 class="heading">-Aspiring Full Stack Web Developer-</h4>
       <div class="p-5">
         <router-link to="/about">
           <button
