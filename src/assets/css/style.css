@@ -50,7 +50,7 @@
 
 /* skills */
 .skills{
-    gap: 10rem;
+    gap: 8.8rem;
 }
 
 /* All about content */
@@ -59,8 +59,8 @@
 }
 
 /* About Image */
-.dp {
-    height: 20rem;
+#dp {
+    width: 20rem;
     margin: auto;
 }
 
@@ -69,6 +69,7 @@
     margin: auto;
     width: 85%;
 }
+
 
 /* footer */
 .footer{
@@ -84,5 +85,13 @@
 @media (width < 700px) {
     .skills{
         gap: 2rem;
+    }
+
+    .about{
+        margin-top: 0;
+    }
+
+    #cardb{
+        flex-direction: column;
     }
 }
