@@ -18,7 +18,7 @@
           alt="GitHub"
       /></a>
       <!-- LinkedIn -->
-      <a href="#" target="_blank">
+      <a href="https://www.linkedin.com/in/codi-kader-6b481a16a/" target="_blank">
         <img
           src="https://i.postimg.cc/P5qL11vG/linkedin.png"
           class="footerI"
