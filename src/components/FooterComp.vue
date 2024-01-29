@@ -4,7 +4,7 @@
       <!-- instagram -->
       <a href="https://www.instagram.com/codells_bruh/" target="_blank">
         <img
-          src="https://i.postimg.cc/c4Lh1cd1/instagram.png"
+          src="https://i.ibb.co/XYmcnR4/instagram-2.png"
           class="footerI"
           loading="lazy"
           alt="instagram"
@@ -12,7 +12,7 @@
       <!-- GitHub -->
       <a href="https://github.com/Codi-K" target="_blank">
         <img
-          src="https://i.postimg.cc/h40F5gDJ/github-sign.png"
+          src="https://i.ibb.co/25rpbDX/github-sign.png"
           class="footerI"
           loading="lazy"
           alt="GitHub"
@@ -20,7 +20,7 @@
       <!-- LinkedIn -->
       <a href="https://www.linkedin.com/in/codi-kader-6b481a16a/" target="_blank">
         <img
-          src="https://i.postimg.cc/P5qL11vG/linkedin.png"
+          src="https://i.ibb.co/M5wpTmd/linkedin-1.png"
           class="footerI"
           loading="lazy"
           alt="LinkedIn"

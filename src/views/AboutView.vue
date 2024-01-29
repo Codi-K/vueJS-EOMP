@@ -4,7 +4,7 @@
       <div class="aboutd m-0 my-3" id="aboutd">
         <div class="p-0 my-3 d-flex justify-content-center">
           <img
-            src="https://i.postimg.cc/brrd8txr/C12-C2-Codi-Kader.jpg"
+            src="https://i.ibb.co/zF8dqb4/C12-C2-Codi-Kader-2-square-removebg-preview.png"
             class=" img-fluid rounded-circle"
             id="dp"
             loading="lazy"

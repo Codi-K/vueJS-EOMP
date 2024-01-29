@@ -7,7 +7,7 @@
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
           <img
-            src="https://i.postimg.cc/ydQmsv52/C-K.gif"
+            src="../assets/image/C-K.gif"
             class="logo"
             loading="lazy"
             alt="Logo"
